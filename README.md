@@ -5,6 +5,7 @@
 - 解决IOS10 之后不能跳转系统设置的问题。（通过快捷方式跳转）
 - shortcuts://x-callback-url/run-shortcut?x-error=Prefs:root=General://
 
+---------------------------------------------------------------
 
 ### IOS
 URL Scheme就是一个可以让 APP 相互之间可以跳转的协议。每个 APP 的URL Scheme都是不一样的，如果存在一样的URL Scheme，那么系统就会响应先安装那个 APP 的URL Scheme，因为后安装的 APP 的URL Scheme被覆盖掉了，是不能被调用的。
