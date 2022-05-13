@@ -8,6 +8,10 @@ URL Scheme就是一个可以让 APP 相互之间可以跳转的协议。每个 A
 Android中的 Scheme 是一种页面内跳转协议，是一种非常好的实现机制，通过定义自己的 Scheme 协议，可以非常方便跳转app中的各个页面；通过scheme协议，服务器可以定制化告诉App跳转那个页面，可以通过通知栏消息定制化跳转页面，可以通过H5页面跳转页面等。
 URL Scheme 就如同网页的url链接一样，可以打开App或跳转到相应的页面。但是大部分APP没有公开自己的URL Scheme。
 
+### 更新日期 2022-05-13
+- 解决IOS 15之后不能跳转系统设置的问题。
+- shortcuts://x-callback-url/run-shortcut?x-error=Prefs:root=General://
+
 ## 常用iOS APP的 URL Scheme
 
 收集了一些常用iOS APP的 URL Scheme 及示例，持续更新，欢迎大家一起来补充。
